@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.background-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    border: 0;
+    background: #333 url("images/bg.jpg");
+    background-size: cover;
+    -webkit-filter: blur(5px) grayscale(60%);
+    filter: blur(5px) grayscale(60%);
+}
+
+.navbar {
+    background-color: rgba(20,20,20, 0.7);
+}
+
+ul li {
+    list-style: none;
+}
